@@ -3,7 +3,7 @@ import numpy as np
 
 
 def capture():
-    face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
+    face_cascade = cv2.CascadeClassifier('cascade/haarcascade_frontalface_default.xml')
     id = input('\n\nEnter Id : ')
     samNo = 0
     color = (255, 0, 0)

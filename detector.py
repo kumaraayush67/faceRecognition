@@ -3,7 +3,7 @@ import numpy as np
 
 
 def detectFace():
-    face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
+    face_cascade = cv2.CascadeClassifier('cascade/haarcascade_frontalface_default.xml')
 
     cap = cv2.VideoCapture(0)
     recognizer = cv2.face.LBPHFaceRecognizer_create()
