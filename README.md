@@ -1,9 +1,9 @@
 # Face Recognition
 
-Application to Detects and Recognize faces in Python with opencv.
+Python Application to Detect and Recognize faces with opencv.
 
 Opencv [haarcascade](https://github.com/opencv/opencv/tree/master/data/haarcascades) is being used for face detection.
-Local Binary Patterns Histograms or [LBPHFaceRecognizer](https://docs.opencv.org/2.4/modules/contrib/doc/facerec/facerec_tutorial.html) is being used for face recognition.
+[Local Binary Patterns Histograms or LBPH FaceRecognizer](https://docs.opencv.org/2.4/modules/contrib/doc/facerec/facerec_tutorial.html) is being used for face recognition.
 
 ## Working
 
